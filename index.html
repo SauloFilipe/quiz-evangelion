@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de Conhecimentos</title>
+    <link rel="shortcut icon" href="src/imagens/logo-nerv.png" image/x-icon">
+
+    <link rel="stylesheet" href="./src/css/estilos.css">
+</head>
+
+<body>
+    <main>
+        <header>
+            <img src="./src/imagens/evangelion-logo-header.svg" alt="Logo do anime Neon Genesis Evangelion">
+            <h1>Teste Seus Conhecimentos</h1>
+        </header>
+
+        <div id="quiz"></div>
+
+        <template>
+            <div class="questoes-quiz">
+                <h3>
+                    Pergunta 01
+                </h3>
+                <dl>
+                    <dt>
+                        <input type="radio" name="item" value="0">
+                        <span>
+                            Resposta A
+                        </span>
+                    </dt>
+                </dl>
+            </div>
+        </template>
+
+        <div id="acertos">
+            <strong>Acertos
+                <span> 0 de 10</span>
+            </strong>
+        </div>
+    </main>
+</body>
+<script src="./src/js/index.js"></script>
+
+</html>
